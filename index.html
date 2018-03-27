@@ -32,11 +32,24 @@
                 display: block;
                 margin: 0 auto;
                 max-width: 400px;
+                padding: 10px;
+            }
+            .goodboy img {
                 width: 100%;
+            }
+            .goodboy figcaption {
+                border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+                font-family: verdana, sans-serif;
+                font-size: 18px;
+                margin: 5px 0;
+                padding: 0 0 4px 0;
             }
         </style>
     </head>
     <body>
-        <img src="assets/goodboy.jpg" class="goodboy" alt="A picture of a small dog" />
+        <figure class="goodboy">
+            <img src="assets/goodboy.jpg" alt="A picture of a small dog" />
+            <figcaption>Buzz.</figcaption>
+        </figure>
     </body>
 </html>
