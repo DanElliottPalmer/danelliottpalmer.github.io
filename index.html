@@ -55,7 +55,10 @@
     </head>
     <body>
         <figure class="goodboy">
-            <img src="assets/goodboy@200w.jpg" srcset="assets/goodboy@200w.jpg 200w, assets/goodboy.jpg 600w" alt="A picture of a small dog" />
+            <script>
+                document.write('<img src="assets/goodboy'+ Math.floor(Math.random()*5) + '.jpg" alt="A picture of a small dog" />');
+            </script>
+            <noscript><img src="assets/goodboy.jpg" alt="A picture of a small dog" /></noscript>
             <figcaption>Buzz.</figcaption>
         </figure>
         <script>
